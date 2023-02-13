@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    background-image: url(Alan\ Walker.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    float: right;
+    display: flex;
+    margin: 10px 15px;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar ul li{
+    text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+
+.columns{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.left-col{
+    margin-left: 5%;
+}
+
+.left-col h1{
+    color: skyblue;
+    font-size: 70px;
+    line-height: 100px;
+    float: left;
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+}
+
+.right-col{
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 12%;
+    margin-top: 80px;
+}
+
+.right-col p{
+    font-size: 50px;
+    color: black;
+    font-style: italic;
+    text-shadow: 1px 1px 2px blue;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
